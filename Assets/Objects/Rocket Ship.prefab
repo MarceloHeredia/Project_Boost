@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 2122955598063242763}
   - component: {fileID: 383449842}
   - component: {fileID: 383449845}
-  - component: {fileID: 383449844}
+  - component: {fileID: 5300289282884879517}
   m_Layer: 0
   m_Name: Rocket Ship
   m_TagString: Untagged
@@ -144,7 +144,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 56
   m_CollisionDetection: 0
 --- !u!82 &383449845
 AudioSource:
@@ -242,7 +242,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &383449844
+--- !u!114 &5300289282884879517
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19fb62da792b10646a0583850bbebd1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rcsThrust: 250
+  _rcsThrust: 100
   _mainThrust: 50
 --- !u!1 &3393847630407027317
 GameObject:
